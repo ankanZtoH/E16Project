@@ -13,8 +13,8 @@ const main = () => {
                 <p className='text-gray-400'>Master DSA with curated resources and expert guidance – Learn the skills that set you apart and join the Top 1% of coding achievers!</p>
             </div>
             <div className='space-x-2'>
-              <Button className='p-[20px] bg-white text-black font-bold border-2 border-black hover:border-none hover:bg-yellow-500'>Learn More</Button>
-              <Button className='p-[20px] bg-yellow-500 font-bold text-black hover:bg-white hover:border-2 hover:border-black'>Explore Test Series<FaArrowRight></FaArrowRight></Button>
+              <Button className='p-[20px] bg-white text-black font-bold border-2 border-black hover:border-2 hover:border-yellow-500 hover:bg-yellow-500  cursor-pointer'>Learn More</Button>
+              <Button className='p-[20px] border-2 border-yellow-500 bg-yellow-500 font-bold text-black hover:bg-white hover:border-2 hover:border-black cursor-pointer'>Explore Test Series<FaArrowRight></FaArrowRight></Button>
             </div>
         </div>
         <div>
