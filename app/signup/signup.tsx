@@ -4,7 +4,7 @@ import React from 'react'
 const signup = () => {
   return (
     <div>
-      <Button variant="secondary">SignUp</Button>
+      <Button variant="secondary" className='font-bold bg-blue-700'>SignUp</Button>
     </div>
   )
 }
