@@ -3,6 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -43,12 +44,14 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-body {
+.dark body {
   background-color: black;
+}
+body{
+  background-color: #F7DFDF;
   color: white;
   font-family: sans-serif;
 }
-
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

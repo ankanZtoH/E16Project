@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import { FaArrowRight } from "react-icons/fa";
+import HangingBanner from '@/app/hanging-bar';
 
 const main = () => {
   return (
@@ -15,6 +16,9 @@ const main = () => {
               <Button className='p-[20px] bg-white text-black font-bold border-2 border-black hover:border-none hover:bg-yellow-500'>Learn More</Button>
               <Button className='p-[20px] bg-yellow-500 font-bold text-black hover:bg-white hover:border-2 hover:border-black'>Explore Test Series<FaArrowRight></FaArrowRight></Button>
             </div>
+        </div>
+        <div>
+          <HangingBanner/>
         </div>
     </div>
   )
