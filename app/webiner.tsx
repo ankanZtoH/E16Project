@@ -3,7 +3,7 @@ import { FaCalendarAlt, FaGlobe } from 'react-icons/fa';
 
 export function Webiner() {
   return (
-      <div className="flex items-center justify-center p-6 space-x-10">
+      <div className="flex items-center justify-center p-6 space-x-10 scroll-mt-45" id='webiner'>
 
          {/* Card for person1 */}
 
@@ -19,7 +19,7 @@ export function Webiner() {
           />
 
           {/* Speaker Image */}
-          <div className="absolute right-4 bottom-0 z-100">
+          <div className="absolute right-4 bottom-0 z-50">
             <div className="relative">
               <img
                 src="/sattik-da.jpg"
@@ -67,7 +67,7 @@ export function Webiner() {
           />
 
           {/* Speaker Image */}
-          <div className="absolute right-4 bottom-0 z-100">
+          <div className="absolute right-4 bottom-0 z-50">
             <div className="relative">
               <img
                 src="/sattik-da.jpg"
@@ -114,7 +114,7 @@ export function Webiner() {
           />
 
           {/* Speaker Image */}
-          <div className="absolute right-4 bottom-0 z-100">
+          <div className="absolute right-4 bottom-0 z-50">
             <div className="relative">
               <img
                 src="/sattik-da.jpg"

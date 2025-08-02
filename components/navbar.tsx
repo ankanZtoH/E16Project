@@ -32,7 +32,7 @@ function Navbar(){
                             <a href="#">Courses</a>
                         </li>
                         <li className="hover:text-[#ea763f] hover:scale-125 hover:duration-400 hover:ease-in-out">
-                            <a href="#">Webiner</a>
+                            <a href="#webiner">Webiner</a>
                         </li>
                         <li className="hover:text-[#ea763f] hover:scale-125 hover:duration-400 hover:ease-in-out">
                             <a href="#">Contact</a>

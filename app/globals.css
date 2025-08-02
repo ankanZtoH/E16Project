@@ -47,6 +47,10 @@
 .dark body {
   background-color: black;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #F7DFDF;
   color: white;
