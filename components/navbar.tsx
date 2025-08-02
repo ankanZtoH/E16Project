@@ -1,10 +1,18 @@
-import signin from "@/app/signin/signin"
-import signup from "@/app/signup/signup"
+"use client";
 import { Button } from "./ui/button"
 import { ThemeToggle } from "@/app/theme-toggle"
-
+import { useRouter } from 'next/navigation';
 
 function Navbar(){
+
+    const router = useRouter();
+    
+      const handleLoginClick = () => {
+        router.push('/login');
+      };
+      const handleSignupClick = () => {
+        router.push('/signup');
+      };
     return(
         <div className="w-[100%] flex justify-center"> 
             <div className="w-[70%] h-[70px] flex justify-between items-center  pl-[20px] pr-[20px] dark:bg-[#1d1c20] bg-[#FFF0F0] border-[2px] shadow-md rounded-[10px] fixed top-[10px] z-[100]"> 
@@ -36,8 +44,10 @@ function Navbar(){
                         <ThemeToggle/>
                     </div>
                      <div className="auth_btn flex gap-[10px]">
-                        {signin()}
-                        {signup()}
+                        <Button onClick={handleLoginClick} className='cursor-pointer font-bold border-2 border-black bg-white text-black hover:bg-[#ea763f] hover:border-orange-500 hover:text-white hover:duration-400 hover:ease-in-out'>SingIn</Button>
+                        
+                        <Button onClick={handleSignupClick} variant="secondary" className='cursor-pointer font-bold bg-[#ea763f] border-2 border-[#ea763f] hover:border-2 hover:border-black dark:hover:bg-white dark:hover:text-black hover:duration-400 hover:ease-in-out'>SignUp</Button>
+                        
                      </div>
                  </div>
             </div>
